@@ -2,9 +2,10 @@ package Homework;
 
 public class EligibleForVoting {
     public static void main(String[] args) {
-        int age = 17;
-            System.out.println("Enter your age = ");
-        if (age>=18) {
+        int Age = 17;
+            System.out.println("I am 17 years old");
+        if (Age>=18)
+        {
             System.out.println("Congratulation, You are Eligible for Vote");
         }
         else

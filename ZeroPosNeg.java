@@ -1,9 +1,8 @@
 package Homework;
 
-public class PosNegNumbers {
-
+public class ZeroPosNeg {
     public static void main(String[] args) {
-        int Number = -1;
+        int Number = 0;
 
         if (Number > 0) {
             System.out.println("The Number is Positive");
@@ -12,5 +11,12 @@ public class PosNegNumbers {
         {
             System.out.println("The Number is Negative");
         }
+        else
+        {
+            System.out.println("Zero is neither positive nor negative");
         }
+
     }
+
+}
+
